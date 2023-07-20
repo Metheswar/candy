@@ -40,7 +40,7 @@ const Cart = () => {
           </tbody>
           <tfoot>
             <tr>
-              <td colSpan="3">Total Amount:</td>
+              <td colSpan="3"><h3>Total Amount:</h3></td>
               <td>{calculateTotalAmount()} rs</td>
             </tr>
           </tfoot>
