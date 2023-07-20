@@ -1,0 +1,63 @@
+/* Cart.css */
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cart-content {
+    background-color: #f5f5f5; /* Light gray background for the cart content */
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    max-width: 400px; /* Limit the width of the cart content */
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  table.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  
+  table.cart-table th,
+  table.cart-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  table.cart-table th {
+    background-color: #f0f0f0;
+    text-align: left;
+  }
+  
+  table.cart-table td {
+    text-align: left;
+  }
+  
+  button {
+    background-color: #ff9b9b; /* Pastel red for the close button */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #ff7b7b; /* Slightly darker shade on hover */
+  }
+  

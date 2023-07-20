@@ -1,0 +1,35 @@
+/* Header.module.css */
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0e6ed; /* Pastel pink */
+  padding: 10px 20px; /* Add some padding for better appearance */
+  border-bottom: 1px solid #dcdcdc; /* Light gray border at the bottom */
+}
+
+h1 {
+  color: #6c757d; /* Dark gray text color */
+  font-size: 24px; /* Adjust font size as needed */
+  margin: 0; /* Remove default margin to align text properly */
+}
+
+.button {
+  background-color: #ffc7c7; /* Pastel coral */
+  color: #6c757d; /* Dark gray text color */
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none; /* Remove default button focus outline */
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #ffa1a1; /* Lighter shade on hover */
+}
+
+.button:active {
+  background-color: #ff8d8d; /* Slightly darker shade when clicked */
+}
