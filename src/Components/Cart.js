@@ -15,10 +15,15 @@ const Cart = () => {
     return totalAmount;
   };
 
+  // Handle click inside the cart content
+  const handleCartContentClick = (event) => {
+    event.stopPropagation();
+  };
+
   return createPortal(
-    <div className="cart-overlay">
-      <div className="cart-content">
-        <h2>Cart</h2>
+    <div className="cart-overlay" onClick={context.cartDisplayHandler}>
+      <div className="cart-content" onClick={handleCartContentClick}>
+      <h2>Cart</h2>
         <table className="cart-table">
           <thead>
             <tr>

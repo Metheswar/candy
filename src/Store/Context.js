@@ -1,7 +1,4 @@
-import React from "react"
-const Context = React.createContext({
-    candy:'',
-    description:'',
-    amount:0
-})
-export default Context
+import { createContext } from "react";
+
+const Context = createContext();
+export default Context;

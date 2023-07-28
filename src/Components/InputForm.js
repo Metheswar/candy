@@ -6,6 +6,7 @@ const InputForm = () => {
     const context = useContext(Context);
   return (
     <div>
+        <br></br>
         <label htmlFor='candy'>candy name:</label>
         <input type='text' id='candy' onChange={context.candyHandler} ></input>
         <br></br>
